@@ -1,4 +1,4 @@
-# 🚀 Dự án Website Cổ Điển Hải Âu (Laravel)
+# 🚀 Dự án Website IT HUMG (Laravel)
 
 Dự án này được xây dựng trên nền tảng **Laravel**, kết hợp với **Tailwind CSS** cho giao diện và **Alpine.js** cho các tương tác Frontend mượt mà.
 
