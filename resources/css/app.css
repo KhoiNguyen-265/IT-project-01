@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+@theme {
+}
+
+@layer base {
+    body {
+        font-size: 14px;
+        background-color: #f0f7ff;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #333;
+    }
+}
+
+.nav__link {
+    @apply text-sm text-white font-medium hover:text-black transition-all duration-30 hover:bg-white rounded-sm px-2 py-3;
+}
+
+.heading-2 {
+    @apply font-bold text-white;
+}
+
+.container {
+    @apply max-w-7xl mx-auto px-4;
+}
