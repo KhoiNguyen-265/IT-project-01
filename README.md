@@ -1,3 +1,66 @@
+# 🚀 Dự án Website Cổ Điển Hải Âu (Laravel)
+
+Dự án này được xây dựng trên nền tảng **Laravel**, kết hợp với **Tailwind CSS** cho giao diện và **Alpine.js** cho các tương tác Frontend mượt mà.
+
+## 🛠 Yêu cầu hệ thống (Prerequisites)
+
+Trước khi cài đặt, hãy đảm bảo máy tính của bạn đã cài sẵn:
+
+- **PHP** >= 8.1
+- **Composer** (Quản lý thư viện PHP)
+- **Node.js & NPM** (Quản lý thư viện Frontend & chạy Vite)
+- **MySQL** (XAMPP, Laragon, MySQL Workbench...)
+- **Git**
+
+---
+
+## ⚙️ Hướng dẫn Cài đặt (Installation)
+
+### Bước 1: Clone mã nguồn
+
+```bash
+git clone https://github.com/KhoiNguyen-265/IT-project-01.git
+cd codien
+```
+
+### Bước 2: Cài đặt thư viện (Backend & Frontend)
+
+```bash
+composer i
+npm i
+```
+
+### Bước 3: Cấu hình môi trường (.env)
+
+#### 1.Copy file .env.example và đổi tên thành .env
+
+```bash
+cp .env.example .env
+```
+
+#### 2.Mở file .env lên, cấu hình lại thông tin Database của bạn:
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=codien
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+## 🏃‍♂️ Hướng dẫn Chạy dự án (Run Local)
+
+Mở 2 terminal dự án và chạy lần lượt:
+
+```bash
+php artisan serve
+```
+
+```bash
+npm run dev
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
